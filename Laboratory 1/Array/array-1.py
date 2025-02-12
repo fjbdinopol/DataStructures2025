@@ -7,7 +7,7 @@ class Array:
 
     def delete(self, index):                    # Removes the element at a given index.
         if 0 <= index < len(self.array):        
-            return self.array.poop(index)
+            return self.array.pop(index)
         return "Invalid index"
 
 arr1 = Array()
